@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import './styles.css';
 
 const boxData = [
-  { id: 1, heading: 'WalletConnect', text: 'Connecting to Metamask and Trustpilot.' },
-  { id: 2, heading: 'Wagmi', text: 'Ethereum based connections.' },
-  { id: 3, heading: 'Web3Modal', text: 'Sign transaction.' },
-  { id: 4, heading: 'ReactJs', text: 'Integration into ReactJs.' },
-  { id: 5, heading: 'Transactions', text: 'Smart Contract transactions.' },
-  { id: 6, heading: 'Reading', text: 'Reading blockchain states.' },
+  { id: 1, heading: 'ReactJs', text: 'Functional Components, UseContext, UseState.' },
+  { id: 2, heading: 'Cloudflare', text: 'Github integrations.' },
+  { id: 3, heading: 'AWS', text: 'EC2 testing, npm modules.' },
+  { id: 4, heading: 'Javascript', text: 'Functions, maps.' },
+  { id: 5, heading: 'React Bootstrap', text: 'Images, Layout.' },
+  { id: 6, heading: 'Axios', text: 'API calls.' },
 ];
 
 const Box = ({ id, heading, text, isMobile, isActive, handleClick }) => {
@@ -52,7 +52,7 @@ const BoxesRow = ({ boxes, isMobile, activeBoxId, handleClick }) => (
   </div>
 );
 
-const Web3 = () => {
+const UI = () => {
   const [activeBoxId, setActiveBoxId] = useState(null);
   const isMobile = window.innerWidth < 768;
   const rows = isMobile ? [boxData] : [boxData.slice(0, 3), boxData.slice(3, 6)];
@@ -65,14 +65,14 @@ const Web3 = () => {
     <div className="container mt-3">
       <div className="row">
         <div className="col">
-		          <h1 className="text-center">Web3 Implementations</h1>
+		          <h1 className="text-center">UIs</h1>
 
         </div>
       </div>
       <div className="row">
 		        <div className="col text-center">
 
-          <p>We have solutions implementing Web3 solutions with Goerli and Polygon.</p>
+          <p>We have solutions implementing ReactJS functional components.</p>
         </div>
       </div>
       {rows.map((boxes, index) => (
@@ -86,12 +86,12 @@ const Web3 = () => {
       ))}
 		<div className="row mt-3">
         <div className="col text-center">
-          <p>These solutions allow a full solution for integrating into the blockchain.</p>
+          <p>These solutions allow a responsive UI to be implemented.</p>
         </div>
       </div>
     </div>
   );
 
 };
-export default Web3;
+export default UI;
 

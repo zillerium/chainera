@@ -13,37 +13,37 @@ const Welcome = () => {
       </Row>
       <Row className="justify-content-center">
         <Col xs={12} sm={6} md={6} lg={6} className="d-flex justify-content-center mb-4">
-          <Link to="/doramo">
+          <Link to="/ui">
             <img
-              src="doramoscreen.png"
-              alt="Doramo"
+              src="reactimage.png"
+              alt="React"
               className="img-fluid w-100"
             />
           </Link>
         </Col>
         <Col xs={12} sm={6} md={6} lg={6} className="d-flex justify-content-center mb-4">
-          <Link to="/flowswap">
+          <Link to="/smartcontract">
             <img
-              src="fsscreen2.png"
-              alt="Image 2"
+              src="solidityimage.png"
+              alt="Solidity"
               className="img-fluid w-100"
             />
           </Link>
         </Col>
         <Col xs={12} sm={6} md={6} lg={6} className="d-flex justify-content-center mb-4">
-          <Link to="/catalox">
+          <Link to="/ipfs">
             <img
-              src="catalox2.png"
-              alt="Image 3"
+              src="ipfsimage.png"
+              alt="IPFS"
               className="img-fluid w-100"
             />
           </Link>
         </Col>
         <Col xs={12} sm={6} md={6} lg={6} className="d-flex justify-content-center mb-4">
-          <Link to="/peacio">
+          <Link to="/web3">
             <img
-              src="peacioscreen.png"
-              alt="Image 4"
+              src="web3image.png"
+              alt="Web3"
               className="img-fluid w-100"
             />
           </Link>

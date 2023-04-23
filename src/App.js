@@ -1,8 +1,7 @@
 import Web3 from './components/Web3.js'
-import Doramo from './components/Doramo.js'
-import Flowswap from './components/Flowswap.js'
-import Catalox from './components/Catalox.js'
-import Peacio from './components/Peacio.js'
+import Smartcontract from './components/Smartcontract.js'
+import UI from './components/UI.js'
+import Ipfs from './components/Ipfs.js'
 import Welcome from './components/Welcome.js'
 import NavBar from './NavBar.js'
 import React from 'react';
@@ -22,9 +21,9 @@ function App() {
                 <Routes>
                      <Route index element={<Welcome />} />                    
                      <Route path="/web3/" element={<Web3 />} />
-                     <Route path="/peacio/" element={<Peacio />} />
-                     <Route path="/flowswap/" element={<Flowswap />} />
-                     <Route path="/catalox/" element={<Catalox />} />
+                     <Route path="/smartcontract/" element={<Smartcontract />} />
+                     <Route path="/ui/" element={<UI />} />
+                     <Route path="/ipfs/" element={<Ipfs />} />
 	  
 	        </Routes>
 	  </Container>

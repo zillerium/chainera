@@ -24,14 +24,14 @@ const NavBar = () => {
             <LinkContainer to="/web3">
               <Nav.Link>Web3</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/smartcontracts">
-              <Nav.Link>Flowswap</Nav.Link>
+            <LinkContainer to="/smartcontract">
+              <Nav.Link>Smart Contracts</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/catalox">
-              <Nav.Link>Catalox</Nav.Link>
+            <LinkContainer to="/ui">
+              <Nav.Link>UIs</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/peacio">
-              <Nav.Link>Peacio</Nav.Link>
+            <LinkContainer to="/ipfs">
+              <Nav.Link>IPFS</Nav.Link>
             </LinkContainer>
 	     </Nav>
         </Navbar.Collapse>
